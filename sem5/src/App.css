@@ -1,0 +1,107 @@
+body {
+  background-color: #e9e9e9;
+}
+
+/* Общие стили для формы */
+form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Стили для каждого блока поля */
+form div {
+  margin-bottom: 20px;
+}
+
+/* Стили для меток */
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #4a4a4a;
+  font-size: 14px;
+}
+
+/* Стили для полей ввода */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #4a4a4a;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  display: block;
+  box-sizing: border-box;
+}
+
+/* Стили при фокусе на поле ввода */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+  outline: none;
+  background-color: #fff;
+}
+
+/* Стили для кнопки */
+form button {
+  width: calc(100% - 20px); /* Учитываем padding формы */
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  display: block; /* Убедимся, что кнопка центрирована */
+  margin: 0 auto; /* Центрирование */
+  box-sizing: border-box;
+}
+
+/* Стили для неактивной кнопки */
+form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Стили при наведении на активную кнопку */
+form button:not(:disabled):hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Стили для сообщения об ошибке */
+form small {
+  display: block;
+  margin-top: 6px;
+  color: #d9534f;
+  font-size: 12px;
+  text-align: left;
+}
+
+/* Адаптивность формы */
+@media (max-width: 480px) {
+  form {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  form button {
+    font-size: 14px;
+  }
+}
