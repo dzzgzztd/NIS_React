@@ -1,0 +1,26 @@
+/*CSS стили для компонента статьи */
+.article-accordion {
+  &:hover {
+    border: 2px solid red; /* Подсветка границ при наведении */
+  }
+
+  .MuiAccordionSummary-root {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .article-title::first-letter {
+    font-size: 2em; /* Увеличиваем первую букву */
+    color: red; /* Красный цвет первой буквы */
+  }
+
+  &.odd {
+    background-color: #0f0f0f;
+    color: white;
+  }
+
+  &.even {
+    background-color: #2277ff;
+    color: white;
+  }
+}
