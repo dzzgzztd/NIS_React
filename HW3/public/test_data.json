@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Телефон",
+    "description": "Современный смартфон с большим экраном и быстрой зарядкой.",
+    "category": "Электроника",
+    "quantity": 15,
+    "unit": "шт",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "name": "Ноутбук",
+    "description": "Мощный ноутбук с процессором последнего поколения.",
+    "category": "Электроника",
+    "quantity": 8,
+    "unit": "шт",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 3,
+    "name": "Чайник",
+    "description": "Электрический чайник с быстрой функцией кипячения воды.",
+    "category": "Бытовая техника",
+    "quantity": 20,
+    "unit": "шт"
+  },
+  {
+    "id": 4,
+    "name": "Пылесос",
+    "description": "Мощный пылесос для быстрой и качественной уборки.",
+    "category": "Бытовая техника",
+    "quantity": 5,
+    "unit": "шт",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 5,
+    "name": "Стиральная машина",
+    "description": "Стиральная машина с функцией экономии воды и энергопотребления.",
+    "category": "Бытовая техника",
+    "quantity": 3,
+    "unit": "шт",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 6,
+    "name": "Наушники",
+    "description": "Беспроводные наушники с шумоподавлением.",
+    "category": "Электроника",
+    "quantity": 12,
+    "unit": "шт",
+    "image": "https://via.placeholder.com/150"
+  }
+]
