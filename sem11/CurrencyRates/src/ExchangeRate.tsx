@@ -8,7 +8,7 @@ interface Rates {
 }
 
 const ExchangeRate: React.FC = () => {
-    const { t } = useTranslation(); // Хук для перевода строк с использованием i18next
+    const { t } = useTranslation(); // Хук для перевода строк
     const [rates, setRates] = useState<Rates | null>(null);
     const [receivedAt, setReceivedAt] = useState<Date | null>(null);
     const [error, setError] = useState<string | null>(null);
